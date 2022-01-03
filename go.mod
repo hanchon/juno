@@ -3,8 +3,8 @@ module github.com/desmos-labs/juno
 go 1.13
 
 require (
-	github.com/cosmos/cosmos-sdk v0.44.3
-	github.com/cosmos/ibc-go/v2 v2.0.0
+	github.com/cosmos/cosmos-sdk v0.44.5
+	github.com/cosmos/ibc-go/v3 v3.0.0-alpha1
 	github.com/go-co-op/gocron v0.3.3
 	github.com/gogo/protobuf v1.3.3
 	github.com/gorilla/mux v1.8.0
@@ -14,11 +14,11 @@ require (
 	github.com/prometheus/common v0.30.0 // indirect
 	github.com/prometheus/procfs v0.7.1 // indirect
 	github.com/rs/zerolog v1.23.0
-	github.com/spf13/cobra v1.2.1
-	github.com/spf13/viper v1.8.1
+	github.com/spf13/cobra v1.3.0
+	github.com/spf13/viper v1.10.1
 	github.com/stretchr/testify v1.7.0
 	github.com/tendermint/tendermint v0.34.14
-	google.golang.org/grpc v1.40.0
+	google.golang.org/grpc v1.43.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
